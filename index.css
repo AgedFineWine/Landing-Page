@@ -16,11 +16,7 @@ header{
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 20px 150px 100px 150px;
-    height: 30vh;
-}
-
-section{
-    height: 60vh;
+    max-height: 40vh;
 }
 
 footer{
@@ -75,6 +71,7 @@ ul{
     border-style: none;
     border-radius: 5px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .row-one, .row-two, .row-three{
@@ -95,7 +92,7 @@ ul{
 
 .row-one{
     margin-bottom: 20px;
-    max-height: 40%;
+    max-height: 40vh;
 }
 
 .box{
@@ -122,16 +119,73 @@ ul{
 
 .row-two{
     background-color: #e5e7eb;
-    padding: 8% 20vw 8% 20vw;
-    max-height: 35%;
+    padding: 100px;
+    max-height: 40vh;
+}
+
+.internal-box{
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
 }
 
 #inspirational-quote{
-    font-style: italic;
+    font-weight: lighter;
     font-size: 36px;
-    
+    color: #1f2937;
+}
+
+#quote-author{
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .row-three{
-    max-height: 25%;
+    max-height: 40vh;
+    padding: 50px 0 50px 0;
+}
+
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 33px 150px 33px 150px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    width: 70vw;
+}
+
+.sign-up-text{
+    flex: 1;
+}
+
+.sign-up-text > p{
+    color: #e5e7eb;
+}
+
+.sign-up-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#bottom-button{
+    padding: 6px 20px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+footer{
+    height: 8vh;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
