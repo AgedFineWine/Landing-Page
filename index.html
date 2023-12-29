@@ -9,7 +9,7 @@
 <body>
     <header>
        <nav>
-        <h3>Header Logo</h3>
+        <h2>Header Logo</h2>
         <ul>
             <li>header link one</li>
             <li>header link two</li>
@@ -18,9 +18,9 @@
        </nav>
        <div class="container">
             <div class="left-text">
-                <p>This website is awesome</p>
-                <p>subtext lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloribus fugiat eaque labore perspiciatis illo.</p>
-                <button>Sign up</button>
+                <p id="main-text">This website is awesome</p>
+                <p id="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button id="top-button">Sign up</button>
             </div>
             <div class="right-image">
                 <p>this is a placeholder for an image</p>
@@ -29,11 +29,31 @@
     </header>
     <section>
         <div class="row-one">
-            <p>Random Information</p>
-            
+            <div class="random">
+                <p id="random-text">Some random information.</p>
+            </div>
+            <div class="box-container">
+                <div class="out-box">
+                    <div class="box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="out-box">
+                    <div class="box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="out-box">
+                    <div class="box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="out-box">
+                    <div class="box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
         </div>
+
         <div class="row-two">
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe
+            <p id="inspirational-quote">This is an inspiring quote, or a testimonial from a customer. Maybe
                 it's just filling up space, or maybe people will actually read it. Who
                 knows? All I know is that it looks nice.
             </p>
@@ -48,7 +68,7 @@
         </div>
     </section>
     <footer>
-
+        <p>Copyright &copy; The Odin Project 2021</p>
     </footer>
 
 </body>
